@@ -1,0 +1,31 @@
+[
+{
+"testName": "All_Negative_Scenarios_Combined", 
+    "tag": "@regression",
+    "testType": "Negative", 
+    "firstName": "Karthi@123", 
+    "lastName": "QA456", 
+    "email": "karthikeyanqa17", 
+    "phone": "9876abcd!@", 
+    "password": "Password123!", 
+    "confirmPassword": "WrongPassword!",
+    "expectedErrors": [
+      "*Enter Valid Email",
+      "*only numbers is allowed",
+      "Password and Confirm Password must match with each other."
+ 
+    ]
+},
+{
+
+"testName": "Valid_Registration", 
+    "tag" : "@smoke @regression",
+    "testType": "Positive", 
+    "firstName": "Karthikeyan", 
+    "lastName": "QAAnalyst", 
+    "email": "karthikeyanqa@gmail.com", 
+    "phone": "9876543210", 
+    "password": "Kgk2330@#$", 
+    "confirmPassword": "Kgk2330@#$"
+}
+]
